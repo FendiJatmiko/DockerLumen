@@ -35,7 +35,7 @@ QUEUE_DRIVER=sync
 - ``PUT api/v1/contact/{id}	==>  put method to update by id ``
 - ``DELETE api/v1/contact/{id}    ==>  delete method to remove specific value or id ``
 ### Here some basic usage using make
-- ``make rebuild `` to build image sepsified in docker-compose 
+- ``make rebuild `` to build image spesified in docker-compose 
 - ``make install `` to install (automatic build and run in the background) and also exec php artisan to migrate database
 - ``make stop ``    to stop running container
 - ``make test ``    to open up localhost using chrome, assuming you have chrome installed on your system.
