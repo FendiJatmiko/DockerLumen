@@ -29,8 +29,8 @@ QUEUE_DRIVER=sync
 
 ## test connection with URI Address 
 
-``GET api/v1/contact 		==>  to get all the contact data from database
-``GET api/v1/contact/{id} 	==>  using method get to read a specific ID 
-``POST api/v1/contact/		==>  Post to create new data 
-``PUT api/v1/contact/{id}	==>  put method to update by id 
-``DELETE api/v1/contact/{id}    ==>  delete method to remove specific value or id 
+- ``GET api/v1/contact 		==>  to get all the contact data from database``
+- ``GET api/v1/contact/{id} 	==>  using method get to read a specific ID ``
+- ``POST api/v1/contact/		==>  Post to create new data ``
+- ``PUT api/v1/contact/{id}	==>  put method to update by id ``
+- ``DELETE api/v1/contact/{id}    ==>  delete method to remove specific value or id ``
