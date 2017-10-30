@@ -34,7 +34,7 @@ QUEUE_DRIVER=sync
 - ``POST api/v1/contact/		==>  Post to create new data ``
 - ``PUT api/v1/contact/{id}	==>  put method to update by id ``
 - ``DELETE api/v1/contact/{id}    ==>  delete method to remove specific value or id ``
-### Here some basic command if you want to use makefile
+### Here some basic usage using make
 - ``make rebuild `` to build image sepsified in docker-compose 
 - ``make install `` to install (automatic build and run in the background) and also exec php artisan to migrate database
 - ``make stop ``    to stop running container
