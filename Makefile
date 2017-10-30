@@ -1,8 +1,6 @@
 AUTHOR=fendiD
-NAME=dockerLumen
-VERSION=7
 
-.PHONY: all build bash run help
+.PHONY: all build
 all: build
 
 rebuild:
